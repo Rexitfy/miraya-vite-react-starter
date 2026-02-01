@@ -1,73 +1,101 @@
-# React + TypeScript + Vite
+# miraya-vite-react-starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal React starter**.
 
-Currently, two official plugins are available:
+I clone this repo **every time** I build:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* UI demos
+* micro-interactions
+* motion experiments
+* small showcase projects I post on social media
 
-## React Compiler
+No setup drama. No boilerplate bloat.
+Just clone → install → build.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 📦 Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **React** (Vite)
+* **TypeScript**
+* **Tailwind CSS**
+* **Framer Motion**
+* **clsx + tailwind-merge**
+* **lucide-react**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Opinionated, modern, and fast to work with.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### ☁️ Why this repo exists
+
+I got tired of:
+
+* setting up Tailwind again
+* re-installing Framer Motion
+* rewriting the same `cn()` utility
+* wasting energy before I even started building
+
+So this repo is my default starting point.
+
+If you see a UI demo or animation from me online,
+**it probably started here.**
+
+---
+
+### ⚙️ Quick start
+
+```bash
+git clone https://github.com/mirayatech/miraya-vite-react-starter.git
+cd miraya-vite-react-starter
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+That’s it.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### ✨ Utility: `cn()`
+
+Located in `src/utils.ts`
+
+```ts
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
 ```
+
+Used everywhere for clean Tailwind class composition.
+
+---
+### 📄 How I use this repo
+
+My usual flow:
+
+1. Clone this repo
+2. Build one focused component or interaction
+3. Polish visuals + motion
+4. Share on social media
+5. Move on
+
+(no long term maintenance & no premature abstractions)
+
+---
+
+### 💭 Philosophy
+
+* Build small
+* Make it look great
+* Ship fast
+* Repeat
+
+---
+
+### 🙂 Author
+
+**Miraya Tech**
+[https://github.com/mirayatech](https://github.com/mirayatech)
